@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5b0266/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5b0266/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太上靈寶淨明祕法篇
+  date: '2015-08-29 00:15:27.066532'
+  source:
+    repository: kanripo
+    path: KR5b0266
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5b0266_000-HFL.yaml, hash: 'sha256:9224fcf3cae242bee15aec76eaa625c7f3f1df542d5bc3a80ec029fdb7b7ce0a'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5b0266_000-HFL.markers.yaml, hash: 'sha256:9900e32e0c424dbe4546bc6367b7c48a9d64ecbc0e0edf48a1ab616b1c4c5e8a'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5b0266_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 5069
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:79f39acb9510fd139714dbb10a94da7ea5ce2f29c850ebe2bda4f65f97f4476e
